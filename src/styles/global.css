@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+@font-face {
+  font-family: "title-font";
+  src: url("../assets//fonts//title-font.ttf") format("opentype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "normal-font";
+  src: url("../assets//fonts//desk-font.ttf") format("opentype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "extra-font";
+  src: url("../assets//fonts//extra-font.otf") format("opentype");
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "normal-font", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(228, 50, 1);
+}
+.title-text {
+  font-family: "title-font", sans-serif;
+}
+
+.extra-text {
+  font-family: "extra-font", sans-serif;
+}
+
+.text-stroke-white {
+  -webkit-text-stroke: #fff 1px;
+}
+
+.text-stroke-xs {
+  -webkit-text-stroke: #000 1px;
+}
+
+.text-stroke-sm {
+  -webkit-text-stroke: #000 2px;
+  text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.7);
+}
+
+.text-stroke-md {
+  -webkit-text-stroke: #000 4px;
+  text-shadow: 7px 7px 1px rgba(0, 0, 0, 0.7);
+}
+
+.text-stroke-lg {
+  -webkit-text-stroke: #000 7px;
+  text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.7);
+}
+
+/* #hero {
+    background: url('/img/bg-hero.avif');
+} */
+
+#heros::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1000px;
+  height: 500px;
+  border-radius: 20%;
+  background: radial-gradient(
+    ellipse at center,
+    hsla(0, 100%, 51%, 0.7),
+    transparent 64%
+  );
+  z-index: 0;
+}
+
+/* From Uiverse.io by mobinkakei */
+.cta {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  background: #eab308;
+  transition: 1s;
+  box-shadow: 6px 6px 0 black;
+  transform: skewX(-15deg);
+  cursor: pointer;
+}
+
+.cta:focus {
+  outline: none;
+}
+
+.cta:hover {
+  transition: 0.5s;
+  box-shadow: 10px 10px 0 #fbc638;
+  background: #000;
+}
+
+.cta .second {
+  transition: 0.5s;
+  margin-right: 0px;
+}
+
+.cta:hover .second {
+  transition: 0.5s;
+  margin-right: 45px;
+}
+
+.span {
+  transform: skewX(15deg);
+}
+
+.second {
+  width: 20px;
+  margin-left: 30px;
+  position: relative;
+  top: 12%;
+}
+
+.one {
+  transition: 0.4s;
+  transform: translateX(-60%);
+}
+
+.two {
+  transition: 0.5s;
+  transform: translateX(-30%);
+}
+
+.cta:hover .three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.cta:hover .one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.cta:hover .two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+@keyframes color_anim {
+  0% {
+    fill: white;
+  }
+
+  50% {
+    fill: #fbc638;
+  }
+
+  100% {
+    fill: white;
+  }
+}
+
+.howtobuy-cta {
+  display: flex;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  background: #eab308;
+  transition: 1s;
+  box-shadow: 6px 6px 0 black;
+  transform: skewX(-15deg);
+  cursor: pointer;
+}
+
+.about-img {
+  filter: drop-shadow(2px 2px 1px #fff) drop-shadow(-2px -2px 1px #fff);
+}
+.header-img {
+  filter: drop-shadow(1px 1px 1px #fff) drop-shadow(-1px -1px 1px #fff);
+}
+
+@media (max-width: 768px) {
+  .text-stroke-sm {
+    -webkit-text-stroke: #000 2px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+  }
+  .text-stroke-lg {
+    -webkit-text-stroke: #000 4px;
+    text-shadow: 7px 7px 1px rgba(0, 0, 0, 0.7);
+  }
+}
+
+.clock {
+  animation: shake 0.5s infinite alternate;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(7deg) translateY(-10px);
+  }
+  50% {
+    transform: rotate(0eg);
+  }
+  75% {
+    transform: rotate(-7deg) translateY(-10px);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .text-stroke-lg {
+    -webkit-text-stroke: #000 4px;
+    text-shadow: 7px 7px 1px rgba(0, 0, 0, 0.7);
+  }
+  .text-stroke-md {
+    -webkit-text-stroke: #000 2px;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.7);
+  }
+  .text-stroke-sm {
+    -webkit-text-stroke: #000 1px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+  }
+}
