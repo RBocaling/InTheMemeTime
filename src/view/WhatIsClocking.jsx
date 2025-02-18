@@ -49,11 +49,7 @@ const WhatIsClocking = () => {
           </motion.p>
         </div>
       </div>
-      <img
-        src="/img2/Colored.svg"
-        className=" w-full about-img absolute top-0 left-0 h-full opacity-10"
-        alt=""
-      />
+
       <div className="mt-10">
         {" "}
         <SlidingText label="#CLOCKBLOCKING" />

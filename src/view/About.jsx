@@ -31,12 +31,10 @@ const About = () => {
             we’re here to drag your broke-ass portfolio out of the gutter and
             into meme season glory. <br />
             ITMT is a memecoin, made for the degens, the memes, and the dreamers
-            looking for the next 1,000x.
+            looking for the next 1,000x. <br />
+            <br /> Holders will earn passively with USDT just by holding $BRRR
+            while supply become more scarce on the buyback & burn mechanism.
           </motion.p>
-          <p className="title-text text-stroke-sm text-2xl md:text-4xl text-white font-bold mb-9">
-            Holders will earn passively with USDT just by holding $BRRR while
-            supply become more scarce on the buyback & burn mechanism.
-          </p>
           <Button
             label="Read Medium Article"
             variant="text-xl py-3 px-9 border"
