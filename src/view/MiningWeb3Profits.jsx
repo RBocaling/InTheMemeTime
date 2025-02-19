@@ -54,7 +54,7 @@ const MiningWeb3Profits = () => {
       </section>
 
       {/* Web3 Profits Section */}
-      <section className="relative container mx-auto text-center">
+      <section className="relative container mx-auto text-center mt-20">
         <h1 className="title-text text-stroke-md text-3xl md:text-6xl mb-4 text-yellow-500 font-bold whitespace-nowrap md:leading-[12rem]">
           {" "}
           Web3 Profits
@@ -93,6 +93,10 @@ const MiningWeb3Profits = () => {
           className="absolute top-0 left-0 w-[300px] -z-10 opacity-35"
           alt=""
         />
+      </section>
+
+      <section className="relative container mx-auto text-center">
+        <img src="/img2/chart.png" alt="" />
       </section>
     </div>
   );
