@@ -32,23 +32,24 @@ const MiningWeb3Profits = () => {
             Profit = Hashpower × Mining Efficiency × Market Rate
           </motion.p>
         </div>
-        <div className="mt-6 text-2xl">
+        <div className="mt-6 text-2xl container mx-auto">
           <motion.p
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="title-text text-stroke-xs text-xl md:text-4xl text-white font-bold mb-9"
+            className="title-text text-stroke-xs text-xl md:text-3xl text-white font-bold my-9"
           >
-            <span className="font-bold text-yellow-300">80%</span> to
-            Development
+            Get rid of 80% to development 20% to buybacks.
           </motion.p>
           <motion.p
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="title-text text-stroke-xs text-xl md:text-4xl text-white font-bold mb-9"
+            className="title-text text-stroke-xs text-xl md:text-3xl text-white font-bold mb-9"
           >
-            <span className="font-bold text-yellow-300">20%</span> to Buybacks
+            at the beginning the main title for In The Meme Time populates
+            really big by the time website is populated you cant really read it
+            fully cuz font is too big{" "}
           </motion.p>
         </div>
       </section>
@@ -74,8 +75,8 @@ const MiningWeb3Profits = () => {
             transition={{ duration: 0.8 }}
             className="title-text text-stroke-xs text-xl md:text-3xl text-white font-bold mb-9"
           >
-            <span className="font-bold text-yellow-300">33.3%</span> Ticktok
-            Swap Buyback from Fees
+            <span className="font-bold text-yellow-300">33.3</span> Ticktok Swap
+            Buyback from Fees
           </motion.p>
           <motion.p
             initial={{ opacity: 0, x: -100 }}
@@ -83,9 +84,8 @@ const MiningWeb3Profits = () => {
             transition={{ duration: 0.8 }}
             className="title-text text-stroke-xs text-xl md:text-3xl text-white font-bold mb-9"
           >
-            <span className="font-bold text-yellow-300">80%</span> to
-            Development | <span className="font-bold text-yellow-300">20%</span>{" "}
-            to Buybacks
+            <span className="font-bold text-yellow-300">80</span> to Development
+            | <span className="font-bold text-yellow-300">20</span> to Buybacks
           </motion.p>
         </div>
         <img

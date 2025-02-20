@@ -47,15 +47,15 @@ export const tokenomics = [
 export const socials = [
   {
     title: "X/TWITTER",
-    url: "",
+    url: "https://x.com/inthe_memetime",
   },
   {
     title: "INSTAGRAM",
-    url: "",
+    url: "https://www.instagram.com/inthememetime.solana/",
   },
   {
     title: "TIKTOK",
-    url: "",
+    url: "https://www.tiktok.com/@inthe_memetime",
   },
 ];
 

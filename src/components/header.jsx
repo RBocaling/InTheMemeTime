@@ -33,7 +33,12 @@ const Header = () => {
               </a>
             ))}
           </div>
-          <Button label="Buy Now" variant="text-xl py-2 px-9 border" />
+          <Button
+            isLink={true}
+            link="https://t.me/+theOg2qBmUthYjdk"
+            label="JOIN TELEGRAM"
+            variant="text-xl py-2 px-9 border"
+          />
         </div>
         <button onClick={handleMenu} className="md:hidden">
           <CgMenuRight size={40} className="text-yellow-500 " />
