@@ -19,12 +19,12 @@ const HowToBuy = () => {
           initial={{ opacity: 0, y: -100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9 }}
-          className="w-full flex flex-col md:flex-row items-center justify-center mt-5"
+          className="w-full flex flex-col md:flex-row gap-4 items-center justify-center mt-5"
         >
           {howtobuy.map((item, index) => (
             <li
               key={index}
-              className="howtobuy-cta w-full md:w-1/3 h-[450px] flex flex-col items-center justify-center gap-4 py-12 px-9 border"
+              className="bg-yellow-500 rounded-2xl  w-full md:w-1/3 h-[450px] flex flex-col items-center justify-center gap-4 py-12 px-9 border"
             >
               <h1 className="text-transparent text-8xl font-bold text-stroke-white opacity-25">
                 {index + 1}
